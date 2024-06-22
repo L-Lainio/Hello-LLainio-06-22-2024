@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
 
 function Introduction() {
   return (
-    <div>Introduction</div>
-  )
+    <div className='flex justify-center flex-col item-center'>
+      <div className='h-[120px] border-r-[1px] mt-[-20px]' />
+      <div className='w-[5px] h-[5px] rounded-full bg-darkgrey-600'></div>
+      <h2 className='mt-5 text-white font-medium text-[13px] tracking-widest text-center'>HELLO MY NAME IS</h2>
+      <h2 className='text-[70px] font-bold text-white tracking-widest mt-5 text-center'>LORA <br /> LAINIO</h2>
+      <img src='/src/assets/LoraProfilePic.jpg' className='w-[160px] h-[160px] bg-grey-200 p-7 rounded-full mt-7' />
+    </div>
+  );
 }
 
-export default Introduction
+export default Introduction;

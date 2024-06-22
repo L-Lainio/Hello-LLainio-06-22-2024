@@ -1,47 +1,46 @@
-import React from 'react'
-import Strings from './Shared/Strings'
-import {Icon} from 'react-icons/io5'
-
-
+// import React from 'react';
+import Strings from './Shared/Strings';
+import { IoStarSharp, IoConstruct } from "react-icons/io5";
 
 function Services() {
-    const servicesList = [
-        {
-            id: 1,
-            title: Strings.FRONTED,
-            desc: Strings.FRONTED_DESC,
-            logo: '/logo.png',
-        },
-        {
-            id: 2,
-            title: Strings.BACKEND,
-            desc: Strings.BACKEND_DESC,
-            logo: '/backend.png',
-        }
-    ];
-
+    const {servicesList} = {
+        servicesList: [
+            {
+                id: 1,
+                title: Strings.FRONTED,
+                desc: Strings.FRONTED_DESC,
+                logo: <IoStarSharp />,
+            },
+            {
+                id: 2,
+                title: Strings.BACKEND,
+                desc: Strings.BACKEND_DESC,
+                logo: <IoConstruct />,
+            },
+            // {
+            //     id: 3,
+            //     logo: <IoGitNetworkSharp />,
+            // },
+        ],
+    };
     return (
         <div className='px-12 mt-12'>
-            <div className='flex item-center'>
-                <div className='w-[20px] h-[7px] bg-lavender-600 rounded-full'></div>
-                <div className='w-full boarder-[1px] mx-4 mt-[-2px]'></div>
+            <div className='flex items-center'>
+                <div className="w-[20px] h-[7px] bg-green-600 rounded-full"></div>
+                <div className='w-full border-[1px] mx-4 mt-[-2px]'></div>
                 <h2 className='text-[24px] font-bold'>{Strings.SERVICES}</h2>
-                <div className='w-full boarder-[1px] mx-4 mt-[-2px]'></div>
-                <div className='w-[20px] h-[7px] bg-lavender-600 rounded-full'></div>
+                <div className="w-full border-[1px] mt-[-2px] mx-4"></div>
+                <div className="w-[20px] h-[7px] bg-green-600 rounded-full"></div>
             </div>
-
             <div className='flex justify-around mt-16'>
-                {servicesList.map((item) => (
-                    <div key={item.id} className='text-center flex flex-col justify-center item-center gap-6'>
-                        <div className='bg-gray-200 rounded-full w-[50px] h-[50px]'>
-                            <img src={item.logo} className='w-[50px] h-[50px]
-                            P-5 hover:scale-125 transition-all cursor-pointer'/>
+                {servicesList.map((service) => (
+                    <div key={service.id} className='bg-gray-125 round w-[] h[]'>
+                        <img src={service.logo} className='text-center flex flex-col justify-center items-center gap-6' alt={service.title} />
+                        <div className='bg-misty-lavender rounded-full w-[80px] h-[80px] flex items-center justify-center'>
+                            {service.logo}
                         </div>
-                        <h2 className='mt-5 font-bold'>{item.title}</h2>
-                        <h2 className='text-gray-400'>{item.desc}</h2>
-                        <Icon className='bg-misty-gray-500 text-[35px]
-                        p-2 text-white rounded-full cursor-pointer hover:scale-125
-                        transition-all'/>
+                        <h2 className='mt-5 font-bold'>{service.title}</h2>
+                        <h2 className='text-gray-400'>{service.desc}</h2>
                     </div>
                 ))}
             </div>

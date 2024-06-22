@@ -10,4 +10,3 @@ export default {
     BACKEND_DESC: 'Developing application backend and Server side development using various backend technology',
 
 }
-

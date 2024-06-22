@@ -7,6 +7,7 @@ import SideBar from './Components/SideBar'
 import ProfilePic from './Components/ProfilePic'
 import Introduction from './Components/Introduction'
 import About from './Components/About'
+import Services from './Components/Services'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <About />
           <div className='hidden md:col-span-2 p-5 mt-[45px]'>
             <ProfilePic />
+            <Services />
           </div>
         </div>
       </div>

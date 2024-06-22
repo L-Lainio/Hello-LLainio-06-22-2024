@@ -17,7 +17,7 @@ function Header() {
     ];
 
     return (
-        <div className='flex items-center w-screen justify-between border'>
+        <div className='flex items-center w-full justify-between border-b-[1px] bg-white'>
             <div className='w-[90px] h-[90px] bg-grey'>
                 <img src='/public/vite.svg' className='p-7' />
             </div>

@@ -1,3 +1,9 @@
+#root {
+  height: 100%;
+  opacity: 100%;
+}
+
+
 .App {
   width: 100%;
   display: flex;
@@ -27,20 +33,30 @@
   color: #433f3f;
 }
 
-html {
-  scroll-behavior: smooth;
+p {
+  color: rgb(255, 255, 255);
+  /* Bright white */
 }
 
-.ProgressBar {
-  position: fixed;
+.header-background {
+  position: absolute;
+  top: 0;
+  right: 0;
   bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1000;
-  /* Ensure it's above other content */
-  margin-left: -5px;
-  margin-right: 16px; /* Adjust this value as needed */
+  left: 0;
+  background-color: opacity(rgb(255, 255, 255), -50%);
+  /* White background with 50% opacity */
+  z-index: -1;
+  /* Ensure it's behind the header content */
 }
+
+.progress-bar {
+  width: 100%;
+  background-color: #eee;
+  padding: 10px;
+}
+
+
 
 .SideBar {
   position: sticky;
@@ -68,13 +84,39 @@ html {
   opacity: 50%;
 }
 
-.BackgroundVideo {
+body,
+div,
+.grid-container {
+  background-color: transparent;
+  font-family: 'Lora', serif;
+  color: #fff;
+
+}
+
+.background-video {
+  /* Position the video to cover the whole viewport */
   position: fixed;
-  right: 0;
-  bottom: 0;
+  top: 0;
+  left: 0;
   min-width: 100%;
+  /* Full width */
   min-height: 100%;
-  width: auto;
-  height: auto;
+  /* Full height */
   z-index: -100;
+  /* Ensure the video stays behind other content */
+}
+
+#bgvid {
+  min-width: 100%;
+  /* Full width */
+  min-height: 100%;
+  /* Full height */
+  object-fit: cover;
+  /* Cover the entire container */
+  transform: translateZ(-50%);
+  /* Center the video */
+}
+
+p {
+  font-family: 'Lora', serif;
 }

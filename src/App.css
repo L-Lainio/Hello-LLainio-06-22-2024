@@ -1,24 +1,17 @@
-#root {
-  max-width: 1280px;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.App {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.3s ease;
 }
 
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -30,28 +23,59 @@
   }
 }
 
-.card {
-  padding: 2em;
-}
-
 .read-the-docs {
-  color: #888;
+  color: #433f3f;
 }
 
-/* MyComponent.module.css */
-.myBackground {
-  background-image: url('./assets/circuitboard-background.jpg');
+html {
+  scroll-behavior: smooth;
+}
+
+
+::backdrop {
+  background-image: url('./assets/futuristic-technology-background.jpg');
+  background-size: cover;
   background-size: cover;
   background-position: center;
-  height: 100vh;
-  width: 100%;
+  background-attachment: fixed;
+  overlay: none;
+  margin: 2px;
+  padding: 2px;
+  box-sizing: border-box;
+  /* Additional styling for the backdrop */
 }
 
-.progress-bar {
+.ProgressBar {
   position: fixed;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
   /* Ensure it's above other content */
+}
+
+.SideBar {
+  position: sticky;
+  left: 0;
+  padding: 10px 0;
+  margin: 0;
+  z-index: 2;
+  width: 100vw;
+}
+
+.SideBar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.2s ease-in-out;
+}
+
+.overlay-container {
+  overlay: auto;
+  position: relative;
+  width: 50%;
+  /* Adjust as needed */
+  height: 100vh;
+  /* Adjust as needed */
+  opacity: 50%;
 }

@@ -3,7 +3,7 @@
 function Introduction() {
   return (
     <div className='flex justify-center flex-col item-center'>
-      <div className='h-[120px] mt-[-20px]' />
+      <div className='h-[95px] mt-[-20px]' />
       <div className='w-[5px] h-[5px] rounded-full bg-darkgrey-600'></div>
       <h2 className='mt-5 text-white font-medium text-[20px] tracking-widest text-center'>HELLO MY NAME IS</h2>
       <h2 className='text-[50px] font-bold text-white tracking-widest mt-5 text-center'>LORA <br /> LAINIO</h2>

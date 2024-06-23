@@ -1,14 +1,12 @@
-import React from 'react';
+// import React from 'react'
 
-function ProfilePic() {
-  return (
-    <div className='fixed'>
-      <img
-        src='/src/assets/circuitboard-background.jpg'
-        className='profile-pic'
-      />
-    </div>
-  );
-}
+// function BackgroundImage() {
+//   return (
+//     <div className='fixed'>
+//       <img src='/src/assets/abstract-plexus-structure.jpg'
+//         className='h-screen' />
+//     </div>
+//   )
+// }
 
-export default ProfilePic;
+// export default BackgroundImage

@@ -6,10 +6,9 @@ import Introduction from './Components/Introduction'
 import About from './Components/About'
 import Services from './Components/Services'
 import ProgressBar from './Components/ProgressBar'
-
+import './App.css';
 
 function App() {
-
   return (
     <div className='w-screen'>
       <Header />
@@ -26,8 +25,7 @@ function App() {
         </div>
       </div>
     </div>
-
-  )
+  );
 }
 
-export default App
+export default App;

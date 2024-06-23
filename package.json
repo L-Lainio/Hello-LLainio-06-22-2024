@@ -10,14 +10,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.13",
+    "postcss-loader": "^8.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-icons": "^5.2.1"
+    "react-icons": "^5.2.1",
+    "tailwind-scrollbar-hide": "^1.1.7"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
+    "@vitejs/plugin-react-refresh": "^1.3.6",
     "autoprefixer": "^10.4.19",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.2",
@@ -26,5 +31,21 @@
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.4",
     "vite": "^5.3.1"
-  }
+  },
+  "description": "react portfolio",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L-Lainio/Hello-LLainio-06-22-2024.git"
+  },
+  "keywords": [
+    "react",
+    "vite"
+  ],
+  "author": "Lora Lainio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/L-Lainio/Hello-LLainio-06-22-2024/issues"
+  },
+  "homepage": "https://github.com/L-Lainio/Hello-LLainio-06-22-2024#readme"
 }

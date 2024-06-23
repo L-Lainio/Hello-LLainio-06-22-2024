@@ -37,3 +37,21 @@
 .read-the-docs {
   color: #888;
 }
+
+/* MyComponent.module.css */
+.myBackground {
+  background-image: url('./assets/circuitboard-background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.progress-bar {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  /* Ensure it's above other content */
+}

@@ -1,4 +1,4 @@
-import './App.css'
+// import React from 'react';
 import Header from './Components/Header'
 import SideBar from './Components/SideBar'
 import ProfilePic from './Components/ProfilePic'
@@ -6,15 +6,15 @@ import Introduction from './Components/Introduction'
 import About from './Components/About'
 import Services from './Components/Services'
 import ProgressBar from './Components/ProgressBar'
-import './App.css';
+
 
 function App() {
   return (
-    <div className='w-screen'>
+    <div>
       <Header />
       <SideBar />
-      <div className='ml-[90px] grid grid-cols-1 md:grid-cols-3'>
-        <div className='md:col-span-2 p-5 mt-[90px]'>
+      <div className='ml-[75px] grid grid-cols-1 md:grid-cols-3'>
+        <div className='md:col-span-2 p-5 mt-[75px]'>
           <Introduction />
           <About />
           <Services />
@@ -28,4 +28,4 @@ function App() {
   );
 }
 
-export default App;
+export default App

@@ -1,12 +1,14 @@
-import React from 'react'
+import React from 'react';
 
 function ProfilePic() {
   return (
     <div className='fixed'>
-        <img src='/src/assets/LoraProfilePic.jpg'
-        className='h-screen'/>
-        </div>
-  )
+      <img
+        src='/src/assets/circuitboard-background.jpg'
+        className='profile-pic'
+      />
+    </div>
+  );
 }
 
-export default ProfilePic
+export default ProfilePic;

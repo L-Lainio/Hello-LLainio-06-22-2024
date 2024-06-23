@@ -3,26 +3,25 @@ import Strings from './Shared/Strings';
 import { IoStarSharp, IoConstruct } from "react-icons/io5";
 
 function Services() {
-    const {servicesList} = {
-        servicesList: [
-            {
-                id: 1,
-                title: Strings.FRONTED,
-                desc: Strings.FRONTED_DESC,
-                logo: <IoStarSharp />,
-            },
-            {
-                id: 2,
-                title: Strings.BACKEND,
-                desc: Strings.BACKEND_DESC,
-                logo: <IoConstruct />,
-            },
-            // {
-            //     id: 3,
-            //     logo: <IoGitNetworkSharp />,
-            // },
-        ],
-    };
+    const servicesList = [
+        {
+            id: 1,
+            title: Strings.FRONTED,
+            desc: Strings.FRONTED_DESC,
+            logo: <IoStarSharp />,
+        },
+        {
+            id: 2,
+            title: Strings.BACKEND,
+            desc: Strings.BACKEND_DESC,
+            logo: <IoConstruct />,
+        },
+        // {
+        //     id: 3,
+        //     logo: <IoGitNetworkSharp />,
+        // }
+    ];
+
     return (
         <div className='px-12 mt-12'>
             <div className='flex items-center'>
@@ -44,7 +43,7 @@ function Services() {
                 ))}
             </div>
         </div>
-    )
+    );
 }
 
 export default Services;

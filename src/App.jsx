@@ -6,18 +6,19 @@ import Introduction from './Components/Introduction'
 import About from './Components/About'
 import Services from './Components/Services'
 import ProgressBar from './Components/ProgressBar'
+import BackgroundVideo from './Components/BackgroundVideo';
 
 
 function App() {
   return (
     <div className="overlay-container">
+      <BackgroundVideo />
       <div className="bg-fixed bg-center bg-cover">
         <Header />
       </div>
       <SideBar />
-      <div style={{ backgroundImage: "url('./assets/futuristic-technology-background.jpg')" }} className="overlay-container ml-[75px] grid grid-cols-1 md:grid-cols-6">
-        <div className='md:col-span-3 p-5 mt-[45px]'>
-
+      <div className="ml-[75px] grid grid-cols-3 md:grid-cols-6">
+        <div className='md:col-span-3'>
           <a href="#home">
             {/* Home content */}
             <a href="#about">
@@ -31,14 +32,13 @@ function App() {
           <Introduction />
           <Services />
         </div>
-        <div className='hidden md:col-span-3 p-5 mt-[45px]'>
+        <div className='md:col-span-3 p-5 mt-[45px]'>
           <ProgressBar />
         </div>
-        <div className='md:col-span-3 p-5 mt-[75px]'>
-          {/* <ProfilePic /> */}
+        {/* <div className='md:col-span-3 p-5 mt-[75px]'>
+          <ProfilePic /> */}
         </div>
       </div>
-    </div>
   );
 }
 export default App;

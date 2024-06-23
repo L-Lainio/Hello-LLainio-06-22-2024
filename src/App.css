@@ -31,20 +31,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
-::backdrop {
-  background-image: url('./assets/futuristic-technology-background.jpg');
-  background-size: cover;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  overlay: none;
-  margin: 2px;
-  padding: 2px;
-  box-sizing: border-box;
-  /* Additional styling for the backdrop */
-}
-
 .ProgressBar {
   position: fixed;
   bottom: 0;
@@ -52,6 +38,8 @@ html {
   transform: translateX(-50%);
   z-index: 1000;
   /* Ensure it's above other content */
+  margin-left: -5px;
+  margin-right: 16px; /* Adjust this value as needed */
 }
 
 .SideBar {

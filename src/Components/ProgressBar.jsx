@@ -24,7 +24,7 @@ function ProgressBar() {
   }, []);
 
   return (
-    <div className="progress-bar w-2.5 bg-gray-200 fixed ml-[-5px] h-full mb-4">
+    <div className="progress-bar w-2.5 bg-gray-200 fixed ml-[-5px] h-full mb-6 mr-2">
       <div className="bg-red-600 transition-all ease-out duration-1000" style={{ height: `${scrollTop}%` }}></div>
     </div>
   );

@@ -3,6 +3,8 @@ dist
 .Netlify
 netlify
 state.json
+node_modules
+package-lock.json
 
 
 # Logs

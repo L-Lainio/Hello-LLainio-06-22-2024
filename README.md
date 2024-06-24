@@ -1,9 +1,83 @@
-# React + Vite
+# Hello-LLainio-06-22-2024 by Lora Lainio
+# React Challenge: React Portfolio  (Mod #20)
 
-
+# React + Vite + Netlify
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Contributor Covenant](https://img.shields.io/badge/Lora-Lainio-4baaaa.svg)](code_of_conduct.md)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b8e65153-ca03-43bb-80ab-93bcc2e57fc3/deploy-status)](https://app.netlify.com/sites/peaceful-llama-3d08bd/deploys)
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+
+## Table of Contents
+
+ * [Description](#description)
+
+ * [Mock-up](#mock-up)
+
+ * [Live-URL-of-Deployed-Application](#live-url-of-deployed-application)
+
+ * [Live-Screen-Recording-of-Application-Functionality](#live-screen-recording-of-application-functionality)
+
+ * [Screenshots](#screenshots)
+
+ * [Technologies-Used](#technologies-used)
+
+ * [Credits](#credits)
+
+ * [Features](#features)
+
+ * [Usage-Information](#usage-information)
+
+ * [Contribution-Guidelines](#contribution-guidelines)
+
+ * [Test-Instructions](#test-instructions)
+
+ * [License](#license)
+
+ * [Questions](#questions)
+
+## Description
+
+As a web developer, I understand the importance of being part of a community. I need a platform to showcase my projects, not just for job applications or freelance work, but also to collaborate with fellow developers and share my work.
+
+React Challenge: React Portfolio Having completed various projects, my current task is to develop a portfolio using my new React skills to stand out from other developers who may not be using the latest technologies.
+For this module challenge, I will deploy this application to Netlify. I will follow the instructions provided in activity 27-Evr_Git-Deploy to create a build that I can deploy.
+
+The task involves creating a React portfolio to showcase projects and skills, enabling collaboration with other developers. The portfolio must be deployed on Netlify and meet specific acceptance criteria. Employers can view the portfolio to assess candidates' skills in building single-page applications. The portfolio should include sections like About Me, Portfolio, Contact, and Resume, with specific features like navigation, project images with links, a contact form, and links to social profiles.
+
+## Mock-Up My GIF
+![](./src/assets/Zight%20Recording%202024-6-23%20at%2010.59.01%20PM.gif)
+
+## Link to walkthrough
+[[Walkthrough Video](https://share.zight.com/GGuBJGNR)](https://share.zight.com/GGuBJGNR)
 
 
+## Deployed on netlify:
+
+[[Netlify-Deployed-Site](https://peaceful-llama-3d08bd.netlify.app)](https://peaceful-llama-3d08bd.netlify.app)
+
+
+## My Screenshot
+
+![](./src/assets/Zight%202024-6-23%20at%2010.20.12%20PM.png)
+
+![](./src/assets/Zight%202024-6-23%20at%2010.20.26%20PM.png)
+
+![](./src/assets/Zight%202024-6-23%20at%2010.21.23%20PM.png)
+
+## Technologies-Used
+
+The technologies used in this project include:
+
+React for building the single-page application
+Netlify for deployment
+HTML and CSS for structuring and styling the portfolio
+JavaScript for interactivity and functionality
+GitHub for version control and hosting the code repository
+
+## React + Vite
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
@@ -82,158 +156,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-
-# Hello-LLainio-06-22-2024 by Lora Lainio 
-# MERN Challenge:  (Mod #20)
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Contributor Covenant](https://img.shields.io/badge/Lora-Lainio-4baaaa.svg)](code_of_conduct.md)
-
-## Table of Contents
-
- * [Description](#description)
-
- * [Mock-up](#mock-up)
-
- * [Live-URL-of-Deployed-Application](#live-url-of-deployed-application)
-
- * [Live-Screen-Recording-of-Application-Functionality](#live-screen-recording-of-application-functionality)
-
- * [Screenshots](#screenshots)
-
- * [Technologies-Used](#technologies-used)
-
- * [Credits](#credits)
-
- * [Features](#features)
-
- * [Usage-Information](#usage-information)
-
- * [Contribution-Guidelines](#contribution-guidelines)
-
- * [Test-Instructions](#test-instructions)
-
- * [License](#license)
-
- * [Questions](#questions)
-
-## Description
-
-
-## Mock-Up
-Let's start by revisiting the web application's appearance and functionality.
-
-As you can see in the following animation, a user can type a search term (in this case, "star wars") in a search box and the results appear:
-
-## Live URL of Deployed Application
-
-Deployed on render:
-
-https://literary-locator-mern.onrender.com
-
-## My GIF
-![]()
-
-## My Screenshot
-
-Let's start by revisiting the web application's appearance and functionality.
-
-As you can see in the following animation, a user can type a search term (in this case, "star wars") in a search box and the results appear:
-![]()
-
-The user can save books by clicking "Save This Book!" under each search result, as shown in the following animation:
-![]()
-
-A user can view their saved books on a separate page, as shown in the following animation:
-![]()
-
-
-## Back-End Specifications
-The back-end specifications for the MERN Book Search Engine project involve updating various files to work with a GraphQL API. Here is a summary of the tasks to be completed in each of the back-end files:
-
-auth.js:
-
-Update the auth middleware function to work with the GraphQL API.
-server.js:
-
-Implement the Apollo Server and apply it to the Express server as middleware.
-Schemas directory:
-
-index.js:
-Export your typeDefs and resolvers.
-resolvers.js:
-Define the query and mutation functionality to work with the Mongoose models. You can use the user-controller.js functionality as a guide.
-typeDefs.js:
-Define the necessary Query and Mutation types:
-Query type:
-me: Returns a User type.
-Mutation type:
-login: Accepts an email and password as parameters; returns an Auth type.
-addUser: Accepts a username, email, and password as parameters; returns an Auth type.
-saveBook: Accepts book details such as author's array, description, title, bookId, image, and link as parameters; returns a User type. Consider creating an input type to handle these parameters efficiently.
-removeBook: Accepts a book's bookId as a parameter; returns a User type.
-User type:
-_id
-username
-email
-bookCount
-savedBooks (an array of the Book type)
-Book type:
-bookId
-authors (an array of strings)
-description
-title
-image
-link
-Auth type:
-token
-user (references the User type)
-
-
-## Front-End Specifications
-The front-end specifications for the MERN Book Search Engine project involve creating and updating various front-end files. Here is a summary of the tasks to be completed in each of the front-end files:
-
-queries.js:
-
-Define the GET_ME query to execute the me query set up using Apollo Server.
-mutations.js:
-
-Define the following mutations:
-LOGIN_USER: Executes the loginUser mutation set up using Apollo Server.
-ADD_USER: Executes the addUser mutation.
-SAVE_BOOK: Executes the saveBook mutation.
-REMOVE_BOOK: Executes the removeBook mutation.
-App.jsx:
-
-Create an Apollo Provider to make every request work with the Apollo server.
-SearchBooks.jsx:
-
-Use the Apollo useMutation() Hook to execute the SAVE_BOOK mutation in the handleSaveBook() function instead of the saveBook() function imported from the API file.
-Ensure the logic for saving the book's ID to state is kept within the try...catch block.
-SavedBooks.jsx:
-
-Remove the useEffect() Hook that sets the state for UserData.
-Use the useQuery() Hook to execute the GET_ME query on load and save it to a variable named userData.
-Use the useMutation() Hook to execute the REMOVE_BOOK mutation in the handleDeleteBook() function instead of the deleteBook() function imported from the API file. Make sure to keep the removeBookId() function in place.
-SignupForm.jsx:
-
-Replace the addUser() functionality imported from the API file with the ADD_USER mutation functionality.
-LoginForm.jsx:
-
-Replace the loginUser() functionality imported from the API file with the LOGIN_USER mutation functionality.
-
-## Technologies-Used
-Has an Apollo Server that uses GraphQL queries and mutations to fetch and modify data, replacing the existing RESTful API.
-
-Use an Apollo Server and apply it to the Express.js server as middleware.
-
-Include schema settings for resolvers and typeDefs as outlined in the Challenge instructions.
-
-Modify the existing authentication middleware to work in the context of a GraphQL API.
-
-Use an Apollo Provider so that the application can communicate with the Apollo Server.
-
-Application must be deployed to Render.
-
 ## Credits
 
 Much of this application followed outline code found within the week 11 class activities.
@@ -242,17 +164,9 @@ Much of this application followed outline code found within the week 11 class ac
 
 Features of this application include the users ability to retrieve and save notes from/to a mock database.json file which will persist on page load unless deleted.
 
-## Usage Information
-
-This application is powered by Express meaning for it to function properly, there needs to be a server running in the background. To start the server, navigate to the directory of the application, install all dependencies (npm i), then type the command npm start (or node index.js). A message should then display in the command line saying "App listening at http://localhost:3001 🚀". Once the server is running, then navigate to the front end of the application directly from the command line by holding command and clicking the link http://localhost:3001. From there, users can pull up any existing notes saved to the database or create new notes, which once saved will be pushed to the database and persisted.
-
 ## Contribution Guidelines
 
 Open to collaboration, if you choose to do so open an issue and modify any changes you would like to see on a feature branch and wait for approval before merging to the main branch.
-
-## Test Instructions
-
-
 
 ## License
 

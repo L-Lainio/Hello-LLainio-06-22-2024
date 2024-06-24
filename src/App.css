@@ -23,14 +23,28 @@
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+/* Adjusting font size for small screens */
+@media (max-width: 480px) {
+  .text-responsive {
+    font-size: 1.2rem;
+  }
+}
+
+/* Adjusting font size for medium screens */
+@media (min-width: 481px) and (max-width: 1024px) {
+  .text-responsive {
+    font-size: 1.4rem;
   }
 }
 
 .read-the-docs {
   color: #433f3f;
+}
+
+/* Setting a minimum and maximum font size */
+.text,h2,h3,h4,h5,h6,
+.text-responsive {
+  font-size: clamp(1rem, 2vw, 1.5rem);
 }
 
 p {
@@ -55,8 +69,6 @@ p {
   background-color: #eee;
   padding: 10px;
 }
-
-
 
 .SideBar {
   position: sticky;
@@ -117,6 +129,15 @@ div,
   /* Center the video */
 }
 
-p {
-  font-family: 'Lora', serif;
+.flex-container {
+  display: flex;
+  justify-content: flex-end;
+  /* Aligns children to the end of the container */
+  gap: 20px;
+  /* Adjusts the space between flex items */
+}
+
+.contact-form {
+  width: auto;
+  /* Adjusts the form width as needed */
 }
